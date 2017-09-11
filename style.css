@@ -1,0 +1,23 @@
+.ms-products-background{
+			background: #222726;
+			height:288px;
+			color:white;	
+			nowrap:true;
+			font-size: .8em;
+			text-align: center;
+		}
+		
+		.ms-product{
+			word-wrap: break-word;
+			padding:60px;
+		}
+		
+		.ms-product-desc{
+			padding-top:20px;
+		}
+		
+		.ms-product-img{
+			height:45px;
+			width:auto;
+		}
+		
