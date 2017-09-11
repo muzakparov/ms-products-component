@@ -5,7 +5,7 @@
     <title>title</title>
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<style>
-		.ms-background{
+		.ms-products-background{
 			background: #222726;
 			height:288px;
 			color:white;	
@@ -14,22 +14,36 @@
 			text-align: center;
 		}
 		
+		.ms-product{
+			word-wrap: break-word;
+			padding:60px;
+		}
+		
+		.ms-product-desc{
+			padding-top:20px;
+		}
+		
+		.ms-product-img{
+			height:45px;
+			width:auto;
+		}
+		
 	</style>
   </head>
   <body>
-	<div class="ms-background container-fluid">
+	<div class="ms-products-background container-fluid">
 		  <div class="row">
-			<div class="col-sm-4" style="word-wrap: break-word;padding:60px;">
-				<img src="Group 308.png" alt="Azure" height="45px" width="auto" />
-				<p style="padding-top:20px;">Azure provides significant cost reductions based on how you run your IT environment;</p>				
+			<div class="col-sm-4 ms-product">
+				<img src="Group 308.png" class="ms-product-img" alt="Azure" />
+				<p class="ms-product-desc">Azure provides significant cost reductions based on how you run your IT environment;</p>				
 			</div>
-			<div class="col-sm-4" style="word-wrap: break-word;padding:60px;">
-				<img src="Group 320.png" alt="Azure" height="45px" width="auto" />
-				<p style="padding-top:20px;">With flexible subscription plans you'll never have to pay for more than you need; it's a Pay-As-You-Go service so you'll never be landed with any unexpected costs.</p>
+			<div class="col-sm-4 ms-product">
+				<img src="Group 320.png" alt="Azure" class="ms-product-img" />
+				<p class="ms-product-desc">With flexible subscription plans you'll never have to pay for more than you need; it's a Pay-As-You-Go service so you'll never be landed with any unexpected costs.</p>
 			</div>
-			<div class="col-sm-4" style="word-wrap: break-word;padding:60px;">
-				<img src="Group 307.png" alt="Azure" height="45px" width="auto"/>
-				<p style="padding-top:20px;">And could see up to 60% in savings when choosing in Miscrosoft cloud.</p>
+			<div class="col-sm-4 ms-product">
+				<img src="Group 307.png" alt="Azure" class="ms-product-img" />
+				<p class="ms-product-desc">And could see up to 60% in savings when choosing in Miscrosoft cloud.</p>
 			</div>
 		  </div>
 	</div>
